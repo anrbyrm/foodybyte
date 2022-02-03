@@ -1,0 +1,52 @@
+name: foodbyte
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  fluentui_system_icons: ^1.1.158
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_hooks: ^0.18.2
+  sizer: ^2.0.15
+  very_good_analysis: ^2.4.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+  fonts:
+    - family: Spartan
+      fonts:
+        - asset: assets/fonts/spartan/Spartan-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/spartan/Spartan-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/spartan/Spartan-Light.ttf
+          weight: 300
+        - asset: assets/fonts/spartan/Spartan-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/spartan/Spartan-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/spartan/Spartan-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/spartan/Spartan-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/spartan/Spartan-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/spartan/Spartan-Black.ttf
+          weight: 900
